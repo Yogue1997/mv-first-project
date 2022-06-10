@@ -1,0 +1,38 @@
+* {
+    margin-top: 0;
+    padding: 0;
+}
+/* Nav parent div  */
+#mainNav{
+    background-color: black;
+}
+#home{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px 5px; */
+    padding: 20px 10px;
+}
+/* *** */
+
+/* Logo  */
+#logo{
+    font-size: 30px;
+    text-decoration: none; 
+}
+#logo:hover{
+    cursor:pointer;
+}
+/* *** */
+
+/* home about contact */
+
+.hac{
+    text-decoration: none; 
+    color: white;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.hac:hover{
+    color: aqua;
+}
