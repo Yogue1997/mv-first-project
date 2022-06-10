@@ -17,6 +17,12 @@
 }
 /* *** */
 
+/* body  */
+body{
+    margin: 0;
+}
+/* *** */
+
 /* Logo  */
 #logo{
     font-size: 30px;
