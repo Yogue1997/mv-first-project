@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&family=Libre+Baskerville:ital@1&family=Lobster&family=Montagu+Slab:opsz,wght@16..144,300;16..144,400&family=Oswald&family=PT+Sans+Narrow:wght@700&family=PT+Serif:ital@1&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@0,400;1,100&family=Roboto:wght@300&display=swap');
 
 * {
     margin-top: 0;
@@ -45,3 +46,27 @@ body{
 .hac:hover{
     color: aqua;
 }
+/* *** */
+
+/* video and paragraph div  */
+
+.vidMain{
+
+}
+
+/* *** */
+
+/* video paragraph */
+.vidPar, .video{
+    font-family: "Bitter";
+    display: block;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    margin: 20px 50px;
+}
+/* *** */
+
