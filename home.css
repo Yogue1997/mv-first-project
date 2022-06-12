@@ -50,9 +50,7 @@ body{
 
 /* video and paragraph div  */
 
-.vidMain{
 
-}
 
 /* *** */
 
@@ -70,3 +68,20 @@ body{
 }
 /* *** */
 
+/* responsive  */
+
+@media(max-width: 768px) {
+    .video{
+        display: inline;
+    }
+    iframe{
+        width: 400px;
+    }
+    #second{
+        justify-content: center;
+        display: flex;
+        margin-left: 50px;
+    }
+}
+
+/* *** */
