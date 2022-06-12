@@ -1,0 +1,137 @@
+/* Nav bar font  */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/* *** */
+/* paragraph font  */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&family=Libre+Baskerville:ital@1&family=Lobster&family=Montagu+Slab:opsz,wght@16..144,300;16..144,400&family=Oswald&family=PT+Sans+Narrow:wght@700&family=PT+Serif:ital@1&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@0,400;1,100&family=Roboto:wght@300&display=swap');
+/* *** */
+/* nav bar @meedia font  */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100&display=swap');
+/* *** */
+* {
+    margin-top: 0;
+    padding: 0;
+}
+/* Nav parent div  */
+#mainNav{
+    background-color: black;
+}
+#home{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px 5px; */
+    padding: 20px 10px;
+    font-family: 'Anton';
+}
+/* *** */
+
+/* body  */
+body{
+    margin: 0;
+}
+/* *** */
+
+/* Logo  */
+#logo{
+    font-size: 30px;
+    text-decoration: none; 
+}
+#logo:hover{
+    cursor:pointer;
+}
+/* *** */
+
+/* home about contact */
+
+.hac{
+    text-decoration: none; 
+    color: white;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.hac:hover{
+    color: aqua;
+}
+/* *** */
+
+
+/* phone size  */
+
+@media(max-width: 768px) {
+    .video{
+        display: inline;
+    }
+    iframe{
+        width: 400px;
+    }
+    #second{
+        justify-content: center;
+        display: flex;
+        margin-left: 50px;
+    }
+    #home{
+        font-family: 'Montserrat';
+        /* display: inline; */
+    }
+    .hac{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+    }
+}
+
+/* *** */
+
+
+/* project id */
+#project{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+/* *** */
+
+/* Project paragraph */
+#pjtPara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+/* *** */
+
+/* links  */
+.pjtLink{
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+}
+/* *** */
+
+/* github */
+#github{
+    height: 7vh;
+}
+
+#gitMain{
+    display: flex;
+    justify-content: center;
+}
+#gitDiv{
+    margin: 30px 0px;
+}
+/* *** */
+/* Github paragraph */
+#gitPara{
+    margin-left: 5px;
+}
+/* *** */
