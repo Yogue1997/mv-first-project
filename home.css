@@ -78,15 +78,19 @@ body{
 
 @media(max-width: 768px) {
     .video{
-        display: inline;
+        display:flex;
+        flex-direction: column;
     }
     iframe{
-        width: 400px;
+        width: 100%;
     }
-    #second{
+    /* #second{
         justify-content: center;
         display: flex;
-        margin-left: 50px;
+        margin: 20px;
+    } */
+    iframe{
+        margin: 20px;
     }
     #home{
         font-family: 'Montserrat';
