@@ -22,6 +22,7 @@
     /* margin: 20px 5px; */
     padding: 20px 10px;
     font-family: 'Anton';
+    
 }
 /* *** */
 
@@ -56,20 +57,51 @@ body{
 }
 /* *** */
 
+/* video and paragraph div  */
+
+
+
+/* *** */
+
+/* video paragraph */
+.vidPar, .video{
+    font-family: "Bitter";
+    display: block;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    margin: 20px 50px;
+}
+.vidPar{
+    letter-spacing: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.video{
+    margin-top: 50px;
+}
+/* *** */
 
 /* phone size  */
 
 @media(max-width: 768px) {
     .video{
-        display: inline;
+        display:flex;
+        flex-direction: column;
     }
     iframe{
-        width: 400px;
+        width: 100%;
     }
-    #second{
+    /* #second{
         justify-content: center;
         display: flex;
-        margin-left: 50px;
+        margin: 20px;
+    } */
+    iframe{
+        margin: 20px;
     }
     #home{
         font-family: 'Montserrat';
@@ -88,56 +120,10 @@ body{
         align-items: center;
         padding-left: 10px;
     }
-    
 }
 
 /* *** */
 
-
-/* project id */
-#project{
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-/* *** */
-
-/* Project paragraph */
-#pjtPara{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 20px;
-}
-/* *** */
-
-/* links  */
-.pjtLink{
-    margin: 20px;
-    justify-content: center;
-    text-align: center;
-}
-/* *** */
-
-/* github */
-#github{
-    height: 7vh;
-}
-
-#gitMain{
-    display: flex;
-    justify-content: center;
-}
-#gitDiv{
-    margin: 30px 0px;
-}
-/* *** */
-/* Github paragraph */
-#gitPara{
-    margin-left: 5px;
-}
-/* *** */
 #cChange{
     color: rgb(255, 119, 0);
 }

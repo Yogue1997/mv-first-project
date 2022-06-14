@@ -1,5 +1,5 @@
 /* Nav bar font  */
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Joan&family=Kdam+Thmor+Pro&family=Montserrat:wght@100&display=swap');
 /* *** */
 /* paragraph font  */
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&family=Libre+Baskerville:ital@1&family=Lobster&family=Montagu+Slab:opsz,wght@16..144,300;16..144,400&family=Oswald&family=PT+Sans+Narrow:wght@700&family=PT+Serif:ital@1&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@0,400;1,100&family=Roboto:wght@300&display=swap');
@@ -21,7 +21,7 @@
     justify-content: space-between;
     /* margin: 20px 5px; */
     padding: 20px 10px;
-    font-family: 'Anton';
+    /* font-family: "Kdm"; */
     
 }
 /* *** */
@@ -29,6 +29,7 @@
 /* body  */
 body{
     margin: 0;
+    background-image: url(images/pexels-tima-miroshnichenko-5662857.jpg);
 }
 /* *** */
 
@@ -49,6 +50,7 @@ body{
     color: white;
     font-size: 25px;
     margin-left: 5px;
+    font-family: "Joan";
 }
 
 .hac:hover{
@@ -56,44 +58,12 @@ body{
 }
 /* *** */
 
-/* video and paragraph div  */
 
-
-
-/* *** */
-
-/* video paragraph */
-.vidPar, .video{
-    font-family: "Bitter";
-    display: block;
-    justify-content: center;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    font-size: 30px;
-    display: flex;
-    margin: 20px 50px;
-}
-/* *** */
 
 /* phone size  */
 
 @media(max-width: 768px) {
-    .video{
-        display:flex;
-        flex-direction: column;
-    }
-    iframe{
-        width: 100%;
-    }
-    /* #second{
-        justify-content: center;
-        display: flex;
-        margin: 20px;
-    } */
-    iframe{
-        margin: 20px;
-    }
+
     #home{
         font-family: 'Montserrat';
         /* display: inline; */
@@ -114,3 +84,30 @@ body{
 }
 
 /* *** */
+
+#cChange{
+    color: rgb(255, 119, 0);
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+input{
+    width: 300px;
+    height: 20px;
+}
+
+
+#sArea{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
