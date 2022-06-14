@@ -1,35 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div id="mainNav">
-        <header id="home">
-            <a href="index.html" id="logo">🏠</a>
-            <a href="about.html" class="hac" id="cChange">Home</a>
-            <div id="hacId">
-                <a href="index.html" class="hac">Home</a>
-                <a href="about.html" class="hac">About</a>
-                <a href="projects.html" class="hac">Projects</a>
+    <!-- responsive navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" id="logo">🎥</a>
+            <a href="index.html" class="hac" id="cChange">Home</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span> 
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-        </header>
-    </div>
+        </nav>
+    </header>
     <div>
-    <div id="sArea">
-        <input type="text" placeholder="        What anime are you looking for?" >
-        <button>search</button>
+        <div id="sArea">
+            <input type="text" placeholder="        What anime are you looking for?">
+            <button>search</button>
+        </div>
+        <div id="animeMainDiv">
+            <div>
+                <div class="animeDiv">
+                    <h5 class="animeT">One Piece</h5>
+                    <img id="onePiece" class="animeImg" src="images/onepiece.jpeg" alt="">
+                </div>
+            </div>
+            <div>
+                <div class="animeDiv">
+                    <h5 class="animeT">Naruto</h5>
+                    <img class="animeImg" src="images/Naruto.png" alt="">
+                </div>
+            </div>
+            <div>
+                <div class="animeDiv">
+                    <h5 class="animeT">Jujutsu Kaisen</h5>
+                    <img class="animeImg" src="images/jujutsu.jpg" alt="">
+                </div>
+            </div>
+            <div>
+                <div class="animeDiv" id="bleach">
+                    <h5 class="animeT">Bleach</h5>
+                    <img class="animeImg" src="images/bleach.jpg" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+<script src="main.js"></script>
 <footer>
     First multiversee project
 </footer>
-
 </html>
