@@ -10,37 +10,49 @@
 </head>
 
 <body>
-    <div id="mainNav">
-        <div id="home">
-            <a href="index.html" id="logo">🏠</a>
-            <a href="projects.html" class="hac" id="cChange">Projects</a>
-            <div id="hacId">
-                <a href="index.html" class="hac" >Home</a>
-                <a href="about.html" class="hac" >About</a>
-                <a href="projects.html" class="hac" >Projects</a>
+    <!-- responsive navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" id="logo">🎥</a>
+            <a href="index.html" class="hac" id="cChange">Projects</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span> 
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-        </div>
-    </div>
+        </nav>
+    </header>
     <div id="projectParent">
         <div id="project">
             <h1>Projects</h1>
         </div>
         <div>
-            <h3 id="pjtPara">I have many projects that I can't even rember how many I have built but in this project I'm only
-                going to link one of my very first projects to the very most recent one
+            <h3 id="pjtPara">
+                These are one of my very first and most recent projects
             </h3>
             <div id="link">
                 <ul>
                     <li>
-                        <p class="pjtLink"><a target="_blank" href="https://youssoufstore.netlify.app/">Youssouf's Store</a> : To be
-                            honest, I was bored when I built this project. But I found a fake store api online to build
-                            this project. I used React to build this project and axios to fetch the data. But so far this
-                            project is the one that I am most proud of</p>
+                        <p class="pjtLink"><a class="prjtLink" target="_blank" href="https://youssoufstore.netlify.app/">Youssouf's Store</a> : I found a fake store api online to build
+                            this project. It's basically a store where you can only view the product.
+                            <br> And I used react in this project
+                        </p>
                     </li>
                     <li>
                         <p class="pjtLink"><a target="_blank" href="https://yogue1997.github.io/soccer-api/">Soccer player</a> : In this
-                            project I used sportmonks api to fetch data. You can type your favorite soccer player name
-                            and get some details about that player</p>
+                            project I used sportmonks for the api. This page is letting you search for your favorite soccer player and get details about them
+                            </p>
                     </li>
                 </ul>
             </div>
@@ -55,4 +67,5 @@
 <footer>
     First multiversee project
 </footer>
+<script src="main.js"></script>
 </html>
